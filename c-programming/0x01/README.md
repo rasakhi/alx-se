@@ -9,7 +9,7 @@ Pseudocode
 	print the number (n) is negative
 4. Else
 	print the number (n) is zero
-5. End
+5. End (Return 0)
 
 Task 1: C program that checks the last digits of a number and checks if it is greater than 5, 0, or less than 6 and not 0
 Pseudocode
@@ -23,4 +23,13 @@ Pseudocode
 	print "Last digit of n is ld and is less than 6 and not 0"
 6. Else
 	print "Last digit of n is ld and is 0"
-7. End
+7. End (Return 0)
+
+Task 2: Write a program that prints the alphabet in lowercase, followed by a newline using putchar only twice
+Pseudocode
+1. Assign the character 'a' to a variable (lowercase)
+2. While lowercase is less than or equal to 'z'
+	print lowercase using putchar
+	increase lowercase by 1
+3. print new line with putchar
+4. End (Return 0)
