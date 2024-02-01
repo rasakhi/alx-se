@@ -33,3 +33,15 @@ Pseudocode
 	increase lowercase by 1
 3. print new line with putchar
 4. End (Return 0)
+
+Task 3: Write a program that prints the alphabet in lowercase, and then in uppercase, followed by a new line
+Pseudocode
+1. Assign the character 'a'(lower)  to a variable and 'A'(upper) to another variable
+2. While lower is less than or equal to 'z'
+	print lower using putchar
+	increase lower by 1
+3. While upper is less than or equal to 'Z'
+	print upper using putchar
+	increase upper by 1
+4. print new line with putchar
+5. End (Return 0)
